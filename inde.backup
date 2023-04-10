@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div class="hero"></div>
+    <div class="overlay"></div>
+    <div class="menu">
+        <div class="nav-menu">
+            <img src="./images/8268254037_68013381-676f-44df-83a9-be264132af56.png" alt="">
+            <nav>
+                <ul>
+                    <a href="">
+                        <li>Menu</li>
+                    </a>
+    
+                    <a href="">
+                        <li>Birthday</li>
+                    </a>
+                    
+                    <a href="">
+                        <li>Gallery</li>
+                    </a>
+                       
+                    <a href="">
+                        <li>Locations</li>
+                    </a>
+       
+                    <a href="">
+                        <li>Order Now</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="hero-text">
+            <h1> Welcome </h1>
+            <p>Tides table, where every dish is a masterpiece crafted with the freshest ingredients and a passion for flavor.</p>
+            <a href="">Scroll down</a>
+        </div>
+    </div>
+
+
+
+    <div class="bgimage-1"></div>
+
+    <div class="container">
+        <h1>Check out our menu</h1>
+    </div>
+
+    <div class="bgimage-2"></div>
+
+    <footer>
+        <ul> 
+            <a href="">
+                <li>Contact</li>
+            </a>
+        </ul>
+    </footer>
+
+</body>
+</html>
