@@ -156,7 +156,12 @@ h2 {
     grid-template-areas: 
       'left  right'  ;
     grid-gap: 10%;
-    margin: 0 10%; 
+    margin: 0 10% 3em 10%; 
+  }
+  .menu-container span {
+    margin: 0 0 1em 1.5em; 
+    display: block; 
+    font-size: 1.4em;
   }
 
 .menu-box{
