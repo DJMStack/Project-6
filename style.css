@@ -5,25 +5,39 @@
 }
 
 body {
-letter-spacing: 1px;
-
+    letter-spacing: 1px;
+    background-color: #ffffff;
+    color: black;
 } 
 
+hr {
+    width: 90%;
+    margin: 2em auto;
+    background-color:black;
+    border-bottom: solid 1px orange;
+    border-right: solid 1px white;
+    border-left: solid 1px white;
+    height: 0.5px;
+    border-radius: 80%;
+}
 a {
     text-decoration: none;
     color: white;
 }
 
-a:hover {
-    color: green;
+a li:hover, a:hover {
+    color: #426CB4;
 }
+
+/*  #426CB4 blue */
+/*  #F05742 red */
 
 .overlay {
     position: absolute;
     height: 100vh;
     width: 100%;
     z-index: -2;
-    background-color: #22121261;
+    background-color: #601c1c40;
     top: 0;
 }
 
@@ -52,7 +66,7 @@ a:hover {
 
 .bg1 {
     background-image: url(./images/cloris-ying-1Qt-W4BGrgc-unsplash.jpg);
-    min-height: 100vh;
+    min-height: 80vh;
     width:100%;
 }
 
@@ -62,7 +76,8 @@ a:hover {
     top: 50%;
     width: 100%;
     text-align: center;
-    color: #000;
+    color: white;
+    background-color: #000;
 
 }
 
@@ -73,7 +88,8 @@ a:hover {
     color: white;
     top: 0;
     position: absolute;
-    width: 100%;;
+    width: 100%;
+    margin-top: 2em;
 }
 
 .menu img {
@@ -84,6 +100,7 @@ a:hover {
     height: 100vh;
 }
 nav ul {
+    margin-top: 1em;
     display: flex;
     justify-content: center;
 }
@@ -99,16 +116,18 @@ nav ul li {
 .hero-text {
     display: flex;
     flex-direction: column;
-    margin-top: 7.5em;
+    margin-top: 12.5em;
 }
+
 .menu h1 {
     font-size: 4em;
     margin-bottom: .5em;
 
 }
+
 .menu p {
     font-size: 1.2em;
-    margin: 0 auto
+    margin: 0 2em;
 }
 .hero-text a {
     border: 4px solid White;
@@ -117,8 +136,78 @@ nav ul li {
     font-size: 1em;
     margin: 5em auto;
 }
+
 .hero-text a:hover {
     color: white;
     background-color: black;
     border-color: black;
 }
+
+/*  section  */
+
+
+h2 {
+    font-size: 2em;
+    margin: 2em 50%;
+}
+
+.sec-content {
+    display: grid;
+    grid-template-areas: 
+      'left  right'  ;
+    grid-gap: 10%;
+    margin: 0 10%; 
+  }
+
+.menu-box{
+    border: solid block 1px;
+
+}
+.menu-container {
+    padding: 2em;
+}
+.menu-box img {
+    display: block;
+    width: 90%;
+    margin: 0 auto 2em auto;
+}
+
+.menu-box p {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.left {
+    grid-area: " left";
+
+}
+.right {
+    grid-area: "right";
+}
+
+/* footer */
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+
+    
+    .sec-content {
+        display: grid;
+        grid-template-areas: 
+        'left'
+        'right' !important;
+        grid-row-gap: 5em;
+        
+    }
+    
+   
+}
+
+
+
